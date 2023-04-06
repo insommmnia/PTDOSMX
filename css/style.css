@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Lato', sans-serif;
+    font-display: swap;
+    font-weight: 700;
+}
+
+.header {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.24) 100%);
+    z-index: 1;
+}
+
+.header_container {
+    max-width: 1980px;
+    padding-left: 30px;
+}
+
+.hero {
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("../img/hero_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1) 1s;
+}
+
+.hero_container {
+    max-width: 1980px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    transition: 1s;
+}
+
+.hero-content {
+    padding-top: 20px;
+    transition: 2s;
+    margin-left: 0px;
+}
+
+.hero-content2 {
+    max-width: 420px;
+    padding-top: 20px;
+}
+
+.hero-img-box {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.hero-img {
+    height: auto;
+    width: 90%;
+    /* еще больше контроля с max-width */
+    max-width: 260px;
+}
+
+.hero-text-box {
+    padding-top: 50px;
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-btn {
+    width: 150px;
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    background: #715C9B;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 30px;
+    height: 50px;
+    text-align: center;
+    border: 0px solid rgba(0, 0, 0, 0.231);
+    background-size: 300% 100%;
+    border-radius: 15px;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.hero-btn:hover {
+    background-position: 100%;
+    margin-top: 25px;
+    scale: 1.02;
+}

@@ -1,0 +1,623 @@
+body {
+    pointer-events: all;
+    overflow: hidden;
+    background: linear-gradient(0deg, #282B34 0%, #282e37 34%, #282B34 100%);
+}
+
+.screen {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    pointer-events: all;
+}
+
+.settings {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 202;
+    padding-left: 10px;
+    padding-right: 10px;
+    pointer-events: all;
+    background-color: #282B34;
+}
+
+.btn_logout {
+    height: 60px;
+    position: absolute;
+    border: none;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 8px;
+    font-size: 14px;
+    color: #687585;
+    background: #2E3442;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn_logout:active {
+    background: #485063;
+}
+
+.w45 {
+    height: 45px;
+    width: 45px;
+}
+
+.w150 {
+    width: 150px;
+    height: 150px;
+}
+
+.w40 {
+    width: 40px;
+    height: 40px;
+}
+
+.cents {
+    position: absolute;
+}
+
+.fgre {
+    color: #54A858;
+}
+
+.f18 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f10 {
+    font-size: 10px;
+}
+
+.fg {
+    color: #687585;
+}
+
+.w60 {
+    width: 60px;
+    height: 60px;
+}
+
+.w40 {
+    height: 40px;
+    width: 40px;
+}
+
+.w30 {
+    width: 30px;
+    height: 30px;
+}
+
+.balance {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.w50 {
+    width: 50px;
+    height: 50px;
+}
+
+.acc_info {
+    color: #fff;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.balance_d {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.balance_d_info {
+    font-size: 18px;
+    color: #fff;
+}
+
+.course_carousel {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cryptos_prof {
+    overflow: scroll;
+    margin-top: 10px;
+    height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.cryptos_prof2 {
+    overflow: scroll;
+    margin-top: -30px;
+    height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.card_full_main {
+    width: 100%;
+    height: 80px;
+    background: #29303A;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.card_full {
+    width: 100%;
+    height: 80px;
+    background: #373F4C;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.crypto_name {
+    position: relative;
+    top: 25%;
+    left: 5%;
+    color: #fff;
+    font-size: 14px;
+}
+
+.crypto_balance_count {
+    position: relative;
+    top: 25%;
+    left: 5%;
+    color: #fff;
+    text-align: end;
+    font-size: 14px;
+}
+
+.space {
+    height: 35%;
+}
+
+.space2 {
+    height: 90%;
+}
+
+.space3 {
+    height: 15%;
+}
+
+.footer {
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    height: 80px;
+    z-index: 9;
+    background: #131419f2;
+}
+
+.menu_footer {
+    color: #0DA7FC;
+}
+
+.transfer_link {
+    color: #687585;
+}
+
+.exchange_link {
+    color: #687585;
+}
+
+.history_link {
+    color: #687585;
+}
+
+.footer-icon {
+    padding-bottom: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-icon2 {
+    padding-bottom: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.transfer {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    pointer-events: all;
+    z-index: 8;
+}
+
+.transfer_form {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    pointer-events: all;
+    z-index: 7;
+}
+
+.transfer_choose {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    pointer-events: all;
+    z-index: 7;
+}
+
+.back_btn_set {
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    position: absolute;
+    pointer-events: all;
+    z-index: 9;
+    transition: 0.2s;
+}
+
+.back_btn22 {
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    position: absolute;
+    pointer-events: all;
+    z-index: 9;
+    transition: 0.2s;
+}
+
+.back_btn23 {
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    position: absolute;
+    pointer-events: all;
+    z-index: 9;
+    transition: 0.2s;
+}
+
+.back_btn2 {
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    position: absolute;
+    pointer-events: all;
+    z-index: 9;
+    transition: 0.2s;
+}
+
+.back_btn2_1 {
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    position: absolute;
+    pointer-events: all;
+    z-index: 9;
+    transition: 0.2s;
+}
+
+.back_btn2_2 {
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    position: absolute;
+    pointer-events: all;
+    z-index: 9;
+    transition: 0.2s;
+}
+
+.transfer_textbox {
+    position: relative;
+    pointer-events: all;
+    transform: translate(0%, 50%);
+    color: #fff;
+    top: -5%;
+    height: 100px;
+    font-size: 12px;
+}
+
+.payment_choices {
+    overflow: scroll;
+    margin-top: -15px;
+    height: 140%;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.payment_cards {
+    width: 100%;
+    padding: 10px;
+    background: #373F4C;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.exchange {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    pointer-events: all;
+}
+
+.exchange_payment {
+    height: 100vh;
+    display: none;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    pointer-events: all;
+}
+
+.exchange_choose {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    pointer-events: all;
+    z-index: 7;
+}
+
+.exchange_form {
+    height: 70vh;
+    width: 100%;
+    overflow: scroll;
+    margin-top: 10px;
+    overflow-x: hidden;
+    background-color: blue;
+}
+
+.crypto_input {
+    all: unset;
+    width: 90%;
+    border-bottom: 2px solid #687585;
+    padding-right: 10px;
+    color: #373F4C;
+    font-size: 28px;
+}
+
+.btnbox_transfer {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.btn_exchange {
+    height: 60px;
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #687585;
+    background: #2E3442;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn_logout {
+    height: 60px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #687585;
+    background: #2E3442;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn_transfer {
+    height: 60px;
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    background: #38b94e;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn_transfer:active {
+    background: #4fcc64;
+}
+
+.btn_exchange:active {
+    background: #4fcc64;
+}
+
+.crypto_input:focus {
+    border-bottom: 2px solid #0DA7FC;
+    color: #0DA7FC;
+}
+
+.crypto_input::-webkit-input-placeholder {
+    color: #373F4C;
+}
+
+.crypto_input:focus::-webkit-input-placeholder {
+    color: #0DA7FC;
+}
+
+.crypto_list {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    pointer-events: all;
+    z-index: 10;
+    display: none;
+    background: linear-gradient(0deg, #282B34 0%, #282e37 34%, #282B34 100%);
+}
+
+.back_btn3 {
+    height: 60px;
+    width: 60px;
+    padding-top: 10px;
+    position: absolute;
+    pointer-events: all;
+    z-index: 10;
+    transition: 0.2s;
+}
+
+.history {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    pointer-events: all;
+}
+
+.form_log_box_create {
+    height: 230px;
+    max-width: 300px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    background: #373F4C;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    pointer-events: all;
+    transform: translate(-50%, 0%);
+    transition: 0.5s ease-in;
+}
+
+.adress {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.form_create {
+    color: #fff;
+    font-size: 10px;
+}
+
+.form_create_text {
+    text-align: center;
+    max-width: 250px;
+}
+
+.form_block {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.form_create_input {
+    all: unset;
+    width: 100px;
+    margin-left: 30px;
+    border: none;
+    font-size: 10px;
+    pointer-events: none;
+}
+
+.form_create_input_pass {
+    all: unset;
+    width: 100px;
+    margin-left: 30px;
+    border: none;
+    font-size: 10px;
+    pointer-events: none;
+    transition: 0.5s ease-in;
+    border-bottom: 0px solid #fff;
+}
+
+.descr_create_box {
+    width: 80px;
+}
+
+.input_descr2 {
+    font-size: 12px;
+    color: #687585;
+    margin: 0;
+}
+
+.form_dop {
+    margin-top: 15px;
+}
+
+@media (min-height: 650px) {
+    .space {
+        height: 45%;
+    }
+    .space2 {
+        height: 50%;
+    }
+}
+
+@media (min-height: 700px) {
+    .space {
+        height: 38%;
+    }
+    .space2 {
+        height: 48%;
+    }
+}
+
+@media (min-height: 800px) {
+    .space {
+        height: 38%;
+    }
+    .space2 {
+        height: 50%;
+    }
+}

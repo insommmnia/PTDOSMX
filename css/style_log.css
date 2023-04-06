@@ -1,0 +1,355 @@
+body {
+    pointer-events: all;
+    background: linear-gradient(0deg, rgba(27, 69, 129, 1) 0%, rgba(28, 169, 241, 1) 34%, rgba(27, 69, 129, 1) 100%);
+}
+
+.screen {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    pointer-events: all;
+    padding: 0;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.f18 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f10 {
+    font-size: 10px;
+}
+
+.fg {
+    color: #687585;
+}
+
+.back_btn {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10px;
+    opacity: 0;
+    z-index: 2;
+    ;
+    transition: 0.2s;
+}
+
+.back_btn2 {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    pointer-events: all;
+    padding-left: 10px;
+    z-index: -1;
+    padding-top: 10px;
+    opacity: 0;
+    ;
+    transition: 0.2s;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    transition: 1s;
+    padding-top: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    pointer-events: all;
+}
+
+.textbox_main {
+    height: 140px;
+    max-width: 370px;
+    position: relative;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s ease-in-out, opacity 0.5s;
+}
+
+.payeer {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+}
+
+.payeer_descr1 {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+.payeer_descr2 {
+    text-align: center;
+    color: #fff;
+    font-size: 8px;
+    padding: 0;
+    transition: 1s ease-out;
+    opacity: 0.5;
+    margin-top: -25px;
+}
+
+.btnbox_main {
+    height: 120px;
+    max-width: 370px;
+    position: relative;
+    margin-top: 20px;
+    top: -12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.8s ease-in;
+}
+
+.btn_login {
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn_login:active {
+    background: rgb(23, 152, 216);
+}
+
+.btn_create {
+    height: 60px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    transition: 0.5s ease-in;
+    font-weight: 500;
+    background: transparent;
+    text-align: center;
+}
+
+.form_log_box {
+    height: auto;
+    max-width: 370px;
+    position: relative;
+    top: -80%;
+    left: 50%;
+    pointer-events: all;
+    opacity: 0;
+    transform: translate(-50%, 0%);
+    transition: 0.9s ease-in;
+}
+
+.form_log_text {
+    text-align: center;
+    max-width: 250px;
+}
+
+.form_log {
+    color: #fff;
+    ;
+}
+
+.form_log_input {
+    all: unset;
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    border-bottom: 1px solid #fff;
+}
+
+.input_descr {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.form_dop {
+    margin-top: 15px;
+}
+
+.link {
+    all: unset;
+    font-size: 10px;
+}
+
+.create_main {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    pointer-events: all;
+    z-index: 2;
+    transform: translateX(150%);
+    transition: 1s;
+    background: #282B34;
+}
+
+.lock_img {
+    position: relative;
+    left: 50%;
+    top: -10%;
+    transform: translate(-50%, 0%);
+    width: 50px;
+    height: 50px;
+}
+
+.btnbox_create {
+    height: auto;
+    width: 98%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.8s ease-in;
+}
+
+.btn_confirm {
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    background: #373F4C;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn_confirm:active {
+    background: rgb(23, 152, 216);
+}
+
+.btn_change {
+    height: 60px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    background: transparent;
+    text-align: center;
+}
+
+.form_log_box_create {
+    height: 210px;
+    max-width: 300px;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    background: #373F4C;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    pointer-events: all;
+    transform: translate(-50%, 0%);
+    transition: 0.5s ease-in;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.form_create {
+    color: #fff;
+    font-size: 10px;
+}
+
+.form_create_text {
+    text-align: center;
+    max-width: 250px;
+}
+
+.form_block {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.form_create_input {
+    all: unset;
+    width: 100px;
+    margin-left: 30px;
+    border: none;
+    font-size: 10px;
+    pointer-events: none;
+}
+
+.form_create_input_pass {
+    all: unset;
+    width: 100px;
+    margin-left: 30px;
+    border: none;
+    font-size: 10px;
+    pointer-events: none;
+    transition: 0.5s ease-in;
+    border-bottom: 0px solid #fff;
+}
+
+.descr_create_box {
+    width: 80px;
+}
+
+.input_descr2 {
+    font-size: 12px;
+    color: #687585;
+    margin: 0;
+}
+
+.form_dop {
+    margin-top: 15px;
+}
+
+
+/* .slide-in {
+    animation: slide-in 0.5s ease-in-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-out {
+    animation: slide-out 0.5s ease-in-out;
+}
+
+@keyframes slide-out {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+} *
